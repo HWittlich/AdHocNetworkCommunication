@@ -8,13 +8,16 @@ It's aim is to allow developers to easily integrate the ability to communicate w
 
 
 
-In general, 
+In general, the library provides three components:
+- Connection
+- Device
+- Protocol
 
-##Examples
+## Examples
 The library has been tested in three scenarios, each using a different of the three components to build upon.
-Testscenario3 contains the most comprehensive
+Testscenario3 contains the most comprehensive example, using the libraries ExampleProtocolLayer class to send and receive messages.
 
-##Step-by-Step:
+## Step-by-Step:
 1. To get started, import the library into your project as documented [here](https://developer.android.com/studio/projects/android-library#AddDependency)
 2. Depending on your use case decide which component you want to build upon
 3. Have a look at the examples in the Testscenario directories and the corresponding classes from the library
